@@ -143,6 +143,15 @@
       row-gap: 6px;
     }
 
+    .author-line a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .author-line a:hover {
+      text-decoration: underline;
+    }
+
     .affiliation-line {
       margin-top: 8px;
       color: var(--muted);
@@ -826,10 +835,10 @@
 
       <div class="authors">
         <div class="author-line">
-          <span>Xiao-Yin Liu<sup>1</sup>,</span>
-          <span>Guotao Li<sup>1,*</sup>,</span>
-          <span>Robert Riener<sup>2</sup>,</span>
-          <span>Zeng-Guang Hou<sup>1,*</sup></span>
+          <span><a href="https://xiaoyinliu0714.github.io/" target="_blank" rel="noopener">Xiao-Yin Liu</a><sup>1</sup>,</span>
+          <span><a href="https://people.ucas.edu.cn/~guotaoli" target="_blank" rel="noopener">Guotao Li</a><sup>1,*</sup>,</span>
+          <span><a href="https://sms.hest.ethz.ch/the-group/team/robert-riener.html" target="_blank" rel="noopener">Robert Riener</a><sup>2</sup>,</span>
+          <span><a href="https://people.ucas.ac.cn/~houzengguang" target="_blank" rel="noopener">Zeng-Guang Hou</a><sup>1,*</sup></span>
         </div>
 
         <div class="affiliation-line">
@@ -843,17 +852,17 @@
       </div>
 
       <div class="links">
-        <a class="button" href="#overview">
-          <i class="fa-solid fa-diagram-project"></i> Overview
+        <a class="button" href="https://arxiv.org/abs/" target="_blank" rel="noopener">
+          <i class="fa-solid fa-file-lines"></i> arXiv
         </a>
-        <a class="button" href="#resources">
-          <i class="fa-solid fa-table"></i> Resources
+        <a class="button" href="https://github.com/xiaoyinliu0714/EmbExo" target="_blank" rel="noopener">
+          <i class="fa-brands fa-github"></i> GitHub
+        </a>
+        <a class="button" href="mailto:liuxiaoyin2023@ia.ac.cn">
+          <i class="fa-solid fa-envelope"></i> Contact
         </a>
         <a class="button" href="#bibtex">
           <i class="fa-solid fa-book"></i> BibTeX
-        </a>
-        <a class="button" href="mailto:guotao.li@ia.ac.cn">
-          <i class="fa-solid fa-envelope"></i> Contact
         </a>
       </div>
     </header>
